@@ -1,24 +1,7 @@
 import React from 'react';
 // import { Nav } from 'react-bootstrap';
-import { toast} from 'react-toastify';
 import { BsDownload } from "react-icons/bs";
 import './navbar.css'
-import Button from 'react-bootstrap/Button';
-
-
-
-function mailInfo (){
-  toast.success('Email: yosefdavid91@gmail.com', {
-    position: 'top-center',
-    autoClose: 10000,
-    hideProgressBar: false,
-    closeOnClick: false,
-    pauseOnHover: true,
-    draggable: true,
-    progress: undefined,
-    theme: 'colored',
-  });
-}
 
 
 const NavBar = ({ onNavItemSelect }) => {
