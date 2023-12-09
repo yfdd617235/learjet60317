@@ -1,0 +1,20 @@
+.block1{
+    border: solid red;
+    display: flex;
+}
+
+.carouseldiv{
+    border: solid blue;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.chartjsdiv{
+    border: solid green;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
