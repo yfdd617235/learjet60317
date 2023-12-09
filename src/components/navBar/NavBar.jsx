@@ -1,10 +1,11 @@
 import React from 'react';
 // import { Nav } from 'react-bootstrap';
 import { toast} from 'react-toastify';
-import * as Icon from 'react-icons/fa';
-import Button from 'react-bootstrap/Button';
+import { BsDownload } from "react-icons/bs";
 import './navbar.css'
-import doorsFile from './52-Doors.rar';
+import Button from 'react-bootstrap/Button';
+
+
 
 function mailInfo (){
   toast.success('Email: yosefdavid91@gmail.com', {
@@ -19,10 +20,6 @@ function mailInfo (){
   });
 }
 
-function handleDownload (){
-  console.log('Clic en el enlace "Doors"');
-  window.location.href = doorsFile;
-}
 
 const NavBar = ({ onNavItemSelect }) => {
   return (
@@ -40,11 +37,15 @@ const NavBar = ({ onNavItemSelect }) => {
         <Nav.Link className='link' onClick={() => onNavItemSelect('projects')} >Projects</Nav.Link>
       </div> */}
 
+
       <div className='ref-doc'>
         <h4>Reference Documents</h4>
-        <a href="{doorsFile}" onClick={handleDownload} rel="noopener noreferrer">Doors</a>
-        <a className='icon-link' href="https://github.com/yfdd617235" rel="noreferrer"><Icon.FaGithub /></a>
-        <Button className='icon-link' onClick={mailInfo} rel="noreferrer"><Icon.FaMailBulk /></Button>
+        <a className='download_doc' href='/downloads/52-Doors.zip' download><BsDownload />  52-Doors </a>
+        <a className='download_doc' href='/downloads/53-Fuselage.zip' download><BsDownload /> 53-Fuselage</a>
+        <a className='download_doc' href='/downloads/54-Nacelles_Pylons.zip' download><BsDownload /> 54-Nacelles_Pylons</a>
+        <a className='download_doc' href='/downloads/55-Stabilizers.zip' download><BsDownload /> 55-Stabilizers</a>
+        <a className='download_doc' href='/downloads/56-Windows.zip' download><BsDownload /> 56-Windows</a>
+        <a className='download_doc' href='/downloads/57-Wings.zip' download><BsDownload /> 57-Wings</a>
       </div>
     </div>
     </>

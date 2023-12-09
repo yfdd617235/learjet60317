@@ -17,14 +17,23 @@
     animation: changeColor 1s infinite alternate;
 }
 
-@keyframes changeColor {
+.download_doc{
+    text-decoration: none;
+    color: white;
+}
+
+.download_doc:hover{
+    color: gray;
+}
+
+/* @keyframes changeColor {
     from {
         color: white;
       }
       to {
         color: gray;
       }
-}
+} */
 
 .ref-doc{
     /* border: solid blue; */
