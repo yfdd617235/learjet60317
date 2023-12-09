@@ -45,4 +45,8 @@
         /* border: solid green; */
         width: 100%;
     }
+
+    .chartjsdiv h4{
+        font-size: smaller;
+    }
 }

@@ -57,7 +57,7 @@
 }
 
 @media (max-width: 950px) {
-    .link {
+    .ref-doc{
         display: none;
     }
 

@@ -60,6 +60,7 @@
       padding-left: 0;
       padding-right: 0;
       /* border: solid red; */
+      /* justify-content: left; */
 
   }
     .right-col {
@@ -78,4 +79,5 @@
     padding-left: 0%;
     padding-right: 0%;
 }
+
 }
