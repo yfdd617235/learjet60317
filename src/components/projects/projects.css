@@ -1,0 +1,49 @@
+.projects{
+    /* border: solid; */
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.projects .row{
+    border: 1px solid #040b1e;
+}
+
+.projects .row:hover{
+    border: 1px solid rgba(90, 90, 125, 0.502);
+}
+
+.projects .row:hover .icon-link-p {
+    color: white;
+  }
+
+.title{
+    color: white;
+}
+
+.info-p{
+    color: rgb(109, 109, 109);
+}
+
+.icon-link-p:hover{
+    color: white;
+}
+
+.icon-link-p{
+    color: rgb(90, 90, 125);
+    font-size: 20px;
+}
+
+.contact-icons-p{
+    /* border: solid blue; */
+    display: flex;
+    justify-content:space-between;
+    width: 30%;
+}
+
+img {
+    width: 25%;
+    height: 100%;
+    object-fit: fill;
+    padding: 5%;
+    padding-left: 0;
+    }

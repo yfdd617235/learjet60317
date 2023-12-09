@@ -1,0 +1,23 @@
+.experience{
+    /* border: solid; */
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.info-date{
+    color: rgb(163, 163, 163);
+    width: 25%;
+    /* border: solid;  */
+}
+
+.info-exp{
+    color: white;
+    flex: 1;
+}
+
+.info-cod{
+    color: rgb(90, 90, 125);
+}
+.row{
+    display: flex;
+}
