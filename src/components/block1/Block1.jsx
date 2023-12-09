@@ -1,10 +1,10 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import ChartComponent from './ChartComponent'
-import img1 from '../../imgs/learjet60WO.png'
-import img2 from '../../imgs/learjetUpView.png'
-import img3 from '../../imgs/learjetFrontView.png'
-import img4 from '../../imgs/learjetLHView.png'
+import img1 from '../../imgs/LearjetISOFRONT.jpeg'
+import img2 from '../../imgs/LearjetISOBACK.jpeg'
+import img3 from '../../imgs/LearjetISOFRONT1.jpeg'
+import img4 from '../../imgs/LearjetISOFRONTDOWN2.jpeg'
 import './carouselfn.css'
 import './block1.css'
 

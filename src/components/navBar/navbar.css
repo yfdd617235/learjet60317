@@ -64,4 +64,9 @@
     .nav-info{
         height: fit-content; 
     }
+
+    .ref-doc{
+        display: flex;
+        font-size: smaller;
+    }
 }

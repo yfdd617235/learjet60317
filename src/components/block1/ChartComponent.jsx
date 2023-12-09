@@ -1,12 +1,13 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
+import './block1.css'
 
 const ChartComponent = () => {
   const labels = ["Doors", "Fuselage", "Nacelles_Pylons", "Stabilizers", "Windows", "Wings"];
   const data = {
     labels: labels,
     datasets: [{
-      label: 'My First Dataset',
+      label: 'Reports',
       data: [1, 4, 0, 6, 2, 5],
       backgroundColor: [
         'rgba(54, 162, 235, 0.2)',
@@ -29,8 +30,8 @@ const ChartComponent = () => {
   };
 
   return (
-    <div>
-      <h2>Dent & Buckle count</h2>
+    <div className='chartarea'>
+      <h4>Dent & Buckle Reports</h4>
       <Bar data={data} />
     </div>
   );

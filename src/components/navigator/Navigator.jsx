@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import NavBar from '../navBar/NavBar';
 import Block1 from '../block1/Block1';
-import Projects from '../projects/Projects';
-import Experience from '../experience/Experience';
+// import Projects from '../projects/Projects';
+// import Experience from '../experience/Experience';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -45,12 +45,12 @@ const Navigator = () => {
           <div ref={aboutMeRef}>
             <Block1 />
           </div>
-          <div ref={experienceRef}>
+          {/* <div ref={experienceRef}>
             <Experience />
           </div>
           <div ref={projectsRef}>
             <Projects />
-          </div>
+          </div> */}
         {/* </div> */}
       </div>
 
