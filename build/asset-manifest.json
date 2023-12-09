@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b4ee913.css",
+    "main.js": "/static/js/main.92a93e85.js",
+    "static/media/imgP1.png": "/static/media/imgP1.ba1cc9defb09183f2165.png",
+    "static/media/imgP6.png": "/static/media/imgP6.1f0582d05e44310e4661.png",
+    "static/media/52-Doors.rar": "/static/media/52-Doors.b8d27952703aacb3e664.rar",
+    "static/media/imgP4.png": "/static/media/imgP4.ae23619db908d02532e5.png",
+    "static/media/imgP5.png": "/static/media/imgP5.b32b7b18ae2c55917af3.png",
+    "static/media/imgP3.png": "/static/media/imgP3.6b49b1675d6b883874d6.png",
+    "static/media/imgP2.png": "/static/media/imgP2.698c84c18160f0b15f47.png",
+    "index.html": "/index.html",
+    "main.2b4ee913.css.map": "/static/css/main.2b4ee913.css.map",
+    "main.92a93e85.js.map": "/static/js/main.92a93e85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b4ee913.css",
+    "static/js/main.92a93e85.js"
+  ]
+}
