@@ -32,13 +32,15 @@
     .block1 {
         flex-direction: column;
         align-items: center;
-        padding-left: 2%;
-        padding-right: 2%;
+        margin: 5%;
+        margin-top: 0;
+        margin-bottom: 10%;
     }
 
     .carouseldiv{
         /* border: solid blue; */
         width: 100%;
+        margin-bottom: 5%;
     }
     
     .chartjsdiv{
@@ -46,7 +48,7 @@
         width: 100%;
     }
 
-    .chartjsdiv h4{
+    .chartjsdiv h5{
         font-size: smaller;
     }
 }

@@ -38,8 +38,8 @@
   }
   
   .right-col::-webkit-scrollbar-thumb {
-    background-color: #040b1e;
-    outline: 1px solid rgba(90, 90, 125, 0.502);
+    background-color: #06549E;
+    outline: 1px solid black;
     border-radius: 5px;
   }
 
@@ -64,7 +64,7 @@
     .right-col {
         width: 100%;
         overflow-y: visible;
-        padding-top: 20%;
+        padding-top: 5%;
         padding-bottom: 5%;
         /* border: solid red; */
         padding-left: 0;

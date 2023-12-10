@@ -1,12 +1,24 @@
   .DBtable{
     /* border: solid green; */
     margin-top: 5%;
+    text-align: center;
+    text-justify: center;
+  }
+
+  .table-titles{
+    text-align: center;
+    text-justify: center;
+    background-color: blue;
   }
 
   @media (max-width: 950px) {
 
-    .DBtable{
+    .DBtable {
         font-size: x-small;
         margin: 5%;
+      }
+    
+      .DBtable h5 {
+        font-size: small;
       }
 }
