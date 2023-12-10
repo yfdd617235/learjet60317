@@ -1,9 +1,12 @@
 .nav-info{
     /* border: solid white; */
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 5%;
     /* height: fit-content; */
 }
 
@@ -12,7 +15,6 @@
 }
 
 .ref-doc:hover{
-    background-color: none;
     color: #5162ff;
 }
 
@@ -25,7 +27,7 @@
         height: fit-content; 
     }
 
-    .ref-doc{
+    .nav-info h4, .ref-doc, .nav-info{
         display: flex;
         font-size: smaller;
     }

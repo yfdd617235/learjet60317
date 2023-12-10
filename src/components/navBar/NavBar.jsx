@@ -14,8 +14,8 @@ function NavBar() {
           <h4>Registry: FAC-1216</h4>
           <p>Damage chart - Dent and Buckle</p>
         </div>
-        <Dropdown className="d-inline mx-2 btndd" autoClose="outside">
-        <Dropdown.Toggle  id="dropdown-autoclose-outside" style={{ backgroundColor: '#06549E', color: 'white' }}>Reference Documents</Dropdown.Toggle>
+        <Dropdown className="d-inline" autoClose="outside">
+        <Dropdown.Toggle  className='ref-doc' id="dropdown-autoclose-outside" style={{ backgroundColor: '#06549E', color: 'white' }}>Reference Documents</Dropdown.Toggle>
           <Dropdown.Menu className='ref-doc'style={{ backgroundColor: '#9AC4E5', color: 'black'}}>
             <Dropdown.Item style={{ color: 'black'}} href='/downloads/52-Doors.zip' download><BsDownload />  52-Doors </Dropdown.Item>
             <Dropdown.Item style={{ color: 'black'}} href='/downloads/53-Fuselage.zip' download><BsDownload /> 53-Fuselage</Dropdown.Item>
