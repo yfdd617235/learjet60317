@@ -2,3 +2,11 @@
     /* border: solid green; */
     margin-top: 5%;
   }
+
+  @media (max-width: 950px) {
+
+    .DBtable{
+        font-size: x-small;
+        margin: 5%;
+      }
+}
