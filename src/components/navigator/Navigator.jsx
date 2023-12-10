@@ -2,10 +2,7 @@ import React, { useRef } from 'react';
 import NavBar from '../navBar/NavBar';
 import Block1 from '../block1/Block1';
 import ExcelViewer from '../excelviewer/Excelviewer';
-// import Projects from '../projects/Projects';
-// import Experience from '../experience/Experience';
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import Referencedocs from '../dropdown/Referencedocs';
 
 import './navigator.css';
 
@@ -36,21 +33,21 @@ const Navigator = () => {
 
   return (
     <div className='screem'>
-      <ToastContainer />
       <div className='left-col'>
         <NavBar onNavItemSelect={handleNavItemSelect} />
       </div>
-
       <div className='right-col'>
-          <div>
-            <Block1 />
-          </div>
-          <div>
-          <ExcelViewer/>
-          </div>
-
+        <div>
+          <Block1 />
+        </div>
+        <div>
+          <ExcelViewer />
+        </div>
       </div>
-
+      <div className='footer-container'>
+        <Referencedocs/>
+      </div>
+        
     </div>
   );
 };

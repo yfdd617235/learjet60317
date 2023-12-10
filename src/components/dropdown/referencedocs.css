@@ -1,3 +1,22 @@
 .ref-doc{
     text-shadow: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: solid; */
+}
+
+.btn-id{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.btn-id a{
+    text-decoration: none;
+    color: white;
 }

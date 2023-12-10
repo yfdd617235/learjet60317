@@ -79,3 +79,17 @@
 }
 
 }
+
+.footer-container{
+  background-color: black;
+  width: 100%;
+  padding: 10%;
+}
+
+
+@media (min-width: 950px) {
+
+  .footer-container{
+      display: none;
+  }
+}
