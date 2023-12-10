@@ -31,7 +31,7 @@ const ChartComponent = () => {
 
   return (
     <div className='chartarea'>
-      <h4>Dent & Buckle Reports</h4>
+      <h6>Dent & Buckle Reports</h6>
       <Bar data={data} />
     </div>
   );

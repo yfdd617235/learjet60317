@@ -7,53 +7,13 @@
     /* height: fit-content; */
 }
 
-.link{
-    border: 1px solid #040b1e;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    /* color: blue; */
-    padding: 1%;
-    animation: changeColor 1s infinite alternate;
-}
-
-.download_doc{
-    text-decoration: none;
-    color: white;
-}
-
-.download_doc:hover{
-    color: gray;
-}
-
-/* @keyframes changeColor {
-    from {
-        color: white;
-      }
-      to {
-        color: gray;
-      }
-} */
-
 .ref-doc{
-    /* border: solid blue; */
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
+    text-shadow: none;
 }
 
-.link:hover{
-    border: 1px solid rgba(90, 90, 125, 0.502);
-}
-
-.icon-link:hover{
-    color: white;
-}
-
-.icon-link{
-    color: rgb(90, 90, 125);
-    font-size: 25px;
+.ref-doc:hover{
+    background-color: none;
+    color: #5162ff;
 }
 
 @media (max-width: 950px) {
