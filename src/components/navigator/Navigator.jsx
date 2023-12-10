@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import NavBar from '../navBar/NavBar';
 import Block1 from '../block1/Block1';
+import ExcelViewer from '../excelviewer/Excelviewer';
 // import Projects from '../projects/Projects';
 // import Experience from '../experience/Experience';
 import { ToastContainer } from 'react-toastify';
@@ -41,17 +42,13 @@ const Navigator = () => {
       </div>
 
       <div className='right-col'>
-        {/* <div className='right-content'> */}
-          <div ref={aboutMeRef}>
+          <div>
             <Block1 />
           </div>
-          {/* <div ref={experienceRef}>
-            <Experience />
+          <div>
+          <ExcelViewer/>
           </div>
-          <div ref={projectsRef}>
-            <Projects />
-          </div> */}
-        {/* </div> */}
+
       </div>
 
     </div>
