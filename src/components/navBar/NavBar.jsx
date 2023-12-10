@@ -15,8 +15,8 @@ function NavBar() {
           <p>Damage chart - Dent and Buckle</p>
         </div>
         <Dropdown className="d-inline" autoClose="outside">
-        <Dropdown.Toggle  className='ref-doc' id="dropdown-autoclose-outside" style={{ backgroundColor: '#06549E', color: 'white' }}>Reference Documents</Dropdown.Toggle>
-          <Dropdown.Menu className='ref-doc'style={{ backgroundColor: '#9AC4E5', color: 'black'}}>
+        <Dropdown.Toggle  className='ref-doc customddb' id="dropdown-autoclose-outside" style={{ color: 'white',fontSize: '12px' }}>Reference Documents</Dropdown.Toggle>
+          <Dropdown.Menu className='ref-doc customddb'style={{ backgroundColor: '#9AC4E5', color: 'black', fontSize: '12px'}}>
             <Dropdown.Item style={{ color: 'black'}} href='/downloads/52-Doors.zip' download><BsDownload />  52-Doors </Dropdown.Item>
             <Dropdown.Item style={{ color: 'black'}} href='/downloads/53-Fuselage.zip' download><BsDownload /> 53-Fuselage</Dropdown.Item>
             <Dropdown.Item style={{ color: 'black'}} href='/downloads/54-Nacelles_Pylons.zip' download><BsDownload /> 54-Nacelles_Pylons</Dropdown.Item>

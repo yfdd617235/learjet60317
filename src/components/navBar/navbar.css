@@ -24,11 +24,17 @@
     }
 
     .nav-info{
-        height: fit-content; 
+        height: fit-content;
+        
     }
 
-    .nav-info h4, .ref-doc, .nav-info{
-        display: flex;
-        font-size: smaller;
+    .nav-info h4{
+        font-size:medium; 
+        
     }
+
+    .customddb{
+        font-size: 10px;
+    }
+
 }
