@@ -10,26 +10,18 @@
     /* height: fit-content; */
 }
 
-.ref-doc{
-    text-shadow: none;
-}
 
-.ref-doc:hover{
-    color: #5162ff;
-}
 
 @media (max-width: 950px) {
-    .ref-doc{
-        display: none;
-    }
 
     .nav-info{
         height: fit-content;
-        
     }
-
     .nav-info h4{
         font-size:medium; 
-        
+    }
+
+    .referencedocs-container{
+        display: none;
     }
 }
