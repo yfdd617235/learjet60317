@@ -42,7 +42,7 @@ const ExcelViewer = () => {
     <div className='DBtable'>
       {excelData && (
         <div>
-            <h4>Dent and Bucle table</h4>
+            <h5>Dent and Bucle table</h5>
           {/* <Button variant="primary" onClick={downloadFile}>
             Descargar Modificado
           </Button> */}
