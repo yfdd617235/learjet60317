@@ -7,7 +7,7 @@
   }
   
   .left-col {
-    /* border: solid green; */
+    border: solid green;
     width: 20%;
     display: flex;
     justify-content: center;
@@ -54,7 +54,7 @@
     .left-col {
       width: 100%;
       padding-top: 5%;
-      padding-bottom: 5%;
+      padding-bottom: 0%;
       padding-left: 0;
       padding-right: 0;
       /* border: solid red; */
