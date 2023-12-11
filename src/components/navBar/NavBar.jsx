@@ -9,8 +9,8 @@ function NavBar() {
       <div className='nav-info'>
         
         <div>
-          <h2>LEARJET 60-317</h2>
-          <h4>Registry: FAC-1216</h4>
+          <h3>LEARJET 60-317</h3>
+          <h5>Registry: FAC-1216</h5>
           <p>Damage chart - Dent and Buckle</p>
         </div>
 
