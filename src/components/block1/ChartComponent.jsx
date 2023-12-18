@@ -8,7 +8,7 @@ const ChartComponent = () => {
     labels: labels,
     datasets: [{
       label: 'Reports',
-      data: [1, 4, 0, 6, 2, 5],
+      data: [0, 6, 0, 0, 0, 5],
       backgroundColor: [
         'rgba(54, 162, 235, 0.2)',
         'rgba(54, 162, 235, 0.2)',
