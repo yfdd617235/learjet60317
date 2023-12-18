@@ -4,7 +4,7 @@ import ChartComponent from './ChartComponent'
 import img1 from '../../imgs/LearjetISOFRONT.jpeg'
 import img2 from '../../imgs/LearjetISOBACK.jpeg'
 import img3 from '../../imgs/LearjetISOFRONT1.jpeg'
-import img4 from '../../imgs/LearjetISOFRONTDOWN2.jpeg'
+import img4 from '../../imgs/LearjetISOFRONTDOWN1.jpeg'
 import './carouselfn.css'
 import './block1.css'
 
