@@ -10,8 +10,9 @@ function Referencedocs() {
       <Dropdown className="d-inline" autoClose="outside">
         <Dropdown.Toggle className='ref-doc customddb' id="dropdown-autoclose-outside" style={{ color: 'white', fontSize: '14px' }}>Dent & Buckle Report</Dropdown.Toggle>
         <Dropdown.Menu className='ref-doc customddb' style={{ fontSize: '14px' }}>
-          <Dropdown.Item style={{ color: 'black' }} href='/downloads/D&B TEMPLATE.xlsx' download><BsDownload /> Excel</Dropdown.Item>
-          <Dropdown.Item style={{ color: 'black' }} href='/downloads/identification.pdf'><BsDownload /> PDF</Dropdown.Item>
+          <Dropdown.Item style={{ color: 'black' }} href='/downloads/D&B TEMPLATE.xlsx' download><BsDownload /> D&B_Excel</Dropdown.Item>
+          <Dropdown.Item style={{ color: 'black' }} href='/downloads/D&B_Report.pdf'><BsDownload /> D&B_PDF</Dropdown.Item>
+          <Dropdown.Item style={{ color: 'black' }} href='/downloads/Inspection_Report.pdf'><BsDownload /> Inspection_Report</Dropdown.Item>
         </Dropdown.Menu>
 
       </Dropdown>
