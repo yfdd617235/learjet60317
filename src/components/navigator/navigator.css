@@ -8,10 +8,10 @@
   
   .left-col {
     /* border: solid green; */
-    width: 15%;
+    width: 20%;
     display: flex;
     justify-content: center;
-    background-color: #06549E;
+    background-color: #0c365e;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
   }
@@ -38,7 +38,7 @@
   }
   
   .right-col::-webkit-scrollbar-thumb {
-    background-color: #06549E;
+    background-color: #0a3157;
     outline: 1px solid black;
     border-radius: 5px;
   }
@@ -81,7 +81,7 @@
 }
 
 .footer-container{
-  background-color: #06549E;
+  background-color: #04325e;
   width: 100%;
   padding: 10%;
 }
